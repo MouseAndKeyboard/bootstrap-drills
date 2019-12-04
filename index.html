@@ -20,9 +20,30 @@
     
     Container class when you want your content to look great across all screen sizes, 
         go very close to the edge of the browser window on smaller screen sizes, but stop at a fixed width and center on the page for desktop screen sizes. -->
+
+    <h1>Hello, world!</h1>
     <div class="container">
-        <h1>Hello, world!</h1>
-        <p class="bg-primary text-white">Hello, I am a paragraph!</p>
+        
+        <div class="row">
+            <div class="col-3 bg-light">
+                <h1>Header</h1>
+            </div>
+        </div>
+
+        <!-- bootstrap works with a grid system. "Containers" contain many rows, and each row has multiple collumns -->
+        <div class="row">
+            <!-- bootstrap rows are broken up into 12 sub-collumn sections, all collumn elements must sum to 12 -->
+            <div class="col-2 bg-primary">
+                <h1>Grid 1</h1>
+            </div>
+            <div class="col-8 bg-danger">
+                <h1>Grid 2</h1>
+            </div>
+            <div class="col-2 bg-success">
+                <h1>Grid 3</h1>
+            </div>
+        </div>
+
     </div>
 
     <br>
